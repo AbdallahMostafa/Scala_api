@@ -11,3 +11,5 @@
 
 
 GET     /todo                       controllers.TodoListController.getAll
+
+GET    /todo/:itemId           controllers.TodoListController.getById(itemId: Long)
